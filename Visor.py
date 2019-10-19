@@ -1,13 +1,5 @@
-"""
-El módulo *visorImagenes* permite seleccionar una imagen (png, jpg, ico, bmp) y
 
-visualizarla, e igualmente visualizar las demás imágenes que se encuentren en la
-
-carpeta de la imagen seleccionada.
-
-"""
 # Versión Python: 3.6.0
-
 # Versión PyQt5: 5.11.3
 import shutil
 import os
