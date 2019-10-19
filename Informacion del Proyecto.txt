@@ -1,0 +1,9 @@
+****La Carpeta de Proyecto1 se debe de mover al escritorio ya que el programa maneja una ruta****
+1. Para el uso del proyecto se pueden utilizar cualquier tipo de imagen, el mismo programa al pulsar el boton de cargar abrira el explorador para
+   que elija que imagen desea visualizar y guardar
+2. En caso de que no se pueda ver alguna imagen se muestra una ventana de error por el tipo de extension que maneja dicha imagen
+3. El codigo esta dividido por partes esta primero la configuracion visual de las ventanas, los botones y dos label que esos mostraran las imagenes
+   despues las Conexiones que hay entre el boton y la funcion que hara, y por ultimo el codigo que ejecutara cada funcion
+4. Para guardar los archivos se usa un numero aleatorio de 1-10000000 haciendo asi practicamente imposible que un numero se repita y reemplace alguna imagen
+
+                                                                                                            Marco A. Aguirre
