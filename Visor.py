@@ -194,12 +194,12 @@ class Widgets(QWidget):
         print(nombre)
     
     def GuardarCarpeta1(self):
-        Destino=os.path.abspath("Proyecto/Carpeta1")
+        Destino=os.path.abspath("Proyecto1/Carpeta1")
         i=random.randrange(10000000000)
         if self.labelImagen.pixmap():
             rt=self.labelImagen.pixmap()
             
-            if (os.path.exists("Proyecto/Carpeta1/")):
+            if (os.path.exists("Proyecto1/Carpeta1/")):
                 rt.save(Destino+"\\{}.jpg".format(str(i)), quality=100)
                 
 
@@ -216,11 +216,11 @@ class Widgets(QWidget):
             
 
     def GuardarCarpeta2(self):
-        Destino=os.path.abspath("Proyecto/Carpeta2")
+        Destino=os.path.abspath("Proyecto1/Carpeta2")
         i=random.randrange(10000000000)
         if self.labelImagen.pixmap():
             rt=self.labelImagen.pixmap()
-            if (os.path.exists("Proyecto/Carpeta2/")):
+            if (os.path.exists("Proyecto1/Carpeta2/")):
                 rt.save(Destino+"\\{}.jpg".format(str(i)), quality=100)
                 
         elif self.labelImagenUno.pixmap():
